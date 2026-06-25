@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Chialuka Onuoha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300;1,8..60,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <a href="index.html" class="nav-name">Chialuka Onuoha</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <!-- <li><a href="news.html">News</a></li> -->
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="toggle-wrap">
+    <span class="toggle-label-text">Light</span>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"></button>
+    <span class="toggle-label-text">Dark</span>
+  </div>
+</nav>
+
+<div class="page">
+  <div class="section-inner wide">
+    <p class="section-label">Research</p>
+    <h1 class="section-title">Five interconnected areas. One coherent question.</h1>
+
+    <div class="research-areas">
+      <div class="research-card">
+        <div class="rc-num">I</div>
+        <h3 class="rc-title">Public Perception & Awareness of AI Across Africa</h3>
+        <p class="rc-desc">Using Google Trends data spanning 2019–2023 across 50 African countries to understand structural engagement patterns. What I found was not simply a digital divide but a structural problem: AI interest spiked around global events like ChatGPT's launch, but the baseline engagement across most African countries remained low and uneven — mapped directly onto infrastructure gaps, policy environments, and colonial legacies.</p>
+        <p class="rc-desc" style="margin-top:0.85rem;">Built in collaboration with Dr. Chinasa T. Okolo. The resulting dataset, AfriAI-Trends, was accepted at EAAMO 2024.</p>
+      </div>
+      <div class="research-card">
+        <div class="rc-num">II</div>
+        <h3 class="rc-title">AI's Role in Disinformation & Democratic Integrity</h3>
+        <p class="rc-desc">Examining how AI can simultaneously detect and amplify disinformation. I led work on audio-visual inconsistency detection, source credibility analysis, and the specific vulnerabilities of African democracies: linguistic diversity, weak digital infrastructure, and low institutional capacity to respond.</p>
+        <p class="rc-desc" style="margin-top:0.85rem;">Deploying AI in fragile political contexts without understanding those contexts is not neutral. It is a choice, and it has consequences for people.</p>
+      </div>
+      <div class="research-card">
+        <div class="rc-num">III</div>
+        <h3 class="rc-title">AI Adoption, Regulation & Ethics Dumping</h3>
+        <p class="rc-desc">As lead author at the Equiano Institute, I examined policy, educational, and infrastructural barriers to AI adoption while addressing risks like data bias and what we called ethics dumping — the practice of exporting AI systems built under one set of ethical assumptions into contexts where those assumptions don't hold.</p>
+        <p class="rc-desc" style="margin-top:0.85rem;">Presented at the Data Community Africa Conference, Lagos, 2024.</p>
+      </div>
+      <div class="research-card">
+        <div class="rc-num">IV</div>
+        <h3 class="rc-title">Language Inclusivity & Fairness in NLP</h3>
+        <p class="rc-desc">In collaboration with Professor Adegboyega Ojo, I'm testing how large language models handle Igbo — spoken by ~30 million people, classified in the left-behind resource tier. Even when these models sound fluent, they consistently miss semantic and cultural context.</p>
+        <p class="rc-desc" style="margin-top:0.85rem;">The Igbo words Lolo and Nwoye Igwe carry distinct cultural weight — one about status, one about lineage — but GPT-4 translates them as equivalent, stripping away emotional and cultural layers. Fairness in NLP is not about error rates. It is about whether a system recognises that a speaker's meaning exists at all.</p>
+      </div>
+      <div class="research-card">
+        <div class="rc-num">V</div>
+        <h3 class="rc-title">Invisible Failure Modes in AI Systems</h3>
+        <p class="rc-desc">My working manuscript, submitted to AIES 2026, makes a core distinction: AI governance has a sophisticated vocabulary for detecting bias — we know how to find it when a system treats one recognised group worse than another. But there is a more fundamental failure that comes before bias can even be measured.</p>
+        <p class="rc-desc" style="margin-top:0.85rem;"><strong style="color:var(--text)">Exclusion</strong> is being treated unequally inside the room. <strong style="color:var(--text)">Omission</strong> is never being allowed into the building. Our entire governance architecture is designed to audit what happens inside the room.</p>
+      </div>
+      <div class="research-card research-card-statement">
+        <div class="rc-num">→</div>
+        <h3 class="rc-title">The ethical and the technical collapse into one another.</h3>
+        <p class="rc-desc">Translating a harmful prompt into a low-resource language — Zulu, Scottish Gaelic, Hmong — raises GPT-4's safety filter bypass rate from below 1% to approximately 79%.</p>
+        <p class="rc-desc" style="margin-top:0.85rem;">The communities most harmed by language omission as a matter of justice are simultaneously the communities whose linguistic context is most easily weaponised against everyone. Omission is not only an injustice. It is a security vulnerability.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <span>Chialuka Prisca-Mary Onuoha</span>
+  <span>Lagos, Nigeria · <a href="mailto:chialukaonuoha@gmail.com">chialukaonuoha@gmail.com</a></span>
+</footer>
+
+<script src="theme.js"></script>
+</body>
+</html>
